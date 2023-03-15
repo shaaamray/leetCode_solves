@@ -6,7 +6,9 @@ class Solution:
 
         for i in range(9):
             for j in range(9):
-                if board[i][j] != ".":
+                if board[i][j] == ".":
+                    continue
+                else:
                     current_row_value = (i, board[i][j])
                     current_col_value = (j, board[i][j])
                     current_box_value = (i//3, j//3, board[i][j])
