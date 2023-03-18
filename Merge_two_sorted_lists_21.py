@@ -25,3 +25,4 @@ class Solution:
             tail.next = list2
 
         return dummy_node.next
+    
